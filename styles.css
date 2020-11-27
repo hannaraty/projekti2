@@ -1,0 +1,92 @@
+/*Otsikoiden tyylittely */
+
+
+h1 {
+  color:#faca04;
+  font-family: "Arial Nova", Helvetica, sans-serif;
+    font-size: 50px;
+    
+}
+.header img {
+  float: left;
+  width: 140px;
+  height: 100px;
+}
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+  
+}
+
+/*Bodyn tyylittely*/
+
+body {
+    background-color: rgb(27, 20, 27);
+    color: 	#1a182c;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/*Teatterilista ja sen ulkoasu*/
+
+#teatterit  {
+    display: block;
+    margin-left: 70px;
+    background-color: white;
+    color: #231c22;
+    height: 40px;
+    font-size: 16px;
+    width: 510px;
+    border: solid;
+    border-color: black;
+    font-family: "Arial Nova", Helvetica, sans-serif;
+}
+
+/*Syöte*/
+
+#syotto {
+  display: none;
+  margin-left: 70px;
+  background-color: white;
+  color: #1a182c;
+  height: 30px;
+  font-size: 15px;
+  width: 500px;
+  border: solid;
+  border-color: black;
+  font-family: "Arial Nova", Helvetica, sans-serif;
+}
+table, tr, td {
+  margin: left;
+  font-size: 15.5px;
+  font-family: "Arial Nova", Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+td {
+  border: solid;
+  border-color: black;
+  background-color: #faca04;
+}
+/*Listan ulkoasu*/
+
+#lista {
+  width: 700px;
+  text-align: left;
+  margin-left: 80px;
+  margin-right:auto;
+}
+
+#lista td:first-child {
+  width: auto;
+}
+#lista td:nth-child(2) {
+  text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+  #lista {
+    width: 100%;
+  }
+}
